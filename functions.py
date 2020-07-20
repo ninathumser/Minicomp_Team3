@@ -1,10 +1,13 @@
+import pandas as pd
+import numpy as np
+
 def merge_files(left_df, right_df):
     df = left_df.merge(right_df, on='Store', how='left')
     return df
 
 def train_val_split():
     #read in pickle
-    file_path = '../data/clean_data.pkl'
+    file_path = './data/clean_data.pkl'
     df = pd.read_pickle(file_path)
     
     #sort dataframe by Store ID
