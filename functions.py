@@ -8,11 +8,11 @@ def train_val_split():
     df = pd.read_pickle(file_path)
     
     #sort dataframe by Store ID
-    df.sort_values(by=['datetime', 'Store'], inplace=True, ignore_index=True)
+    df.sort_values(by=['Date', 'Store'], inplace=True, ignore_index=True)
     
     #split dataset into features and target
     #k = int(df.shape[0] * relative_train)
-    k = df[df['datetime'] == '2014-03-30'].index.max()
+    k = df[df['Date'] == '2014-03-30'].index.max()
     data_train = df.loc[:k, :]
     data_val = df.loc[k+1:, :]
     
