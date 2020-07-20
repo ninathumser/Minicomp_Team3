@@ -1,4 +1,4 @@
-def merge_files(left_df=train, right_df=store):
+def merge_files(left_df, right_df):
     df = left_df.merge(right_df, on='Store', how='left')
     return df
 
@@ -16,7 +16,7 @@ def train_val_split():
     data_train = df.loc[:k, :]
     data_val = df.loc[k+1:, :]
     
-    assert data_train['datetime'].max() < data_val['datetime'].min()
+    assert data_train['Date'].max() < data_val['Date'].min()
     
     #returns train and validation datasets
     return data_train, data_val
