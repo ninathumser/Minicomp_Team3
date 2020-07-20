@@ -1,3 +1,6 @@
+import pandas as pd
+import numpy as np
+
 def merge_files(left_df, right_df):
     df = left_df.merge(right_df, on='Store', how='left')
     return df
