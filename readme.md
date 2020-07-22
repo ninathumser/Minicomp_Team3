@@ -11,7 +11,9 @@ $ conda env create -f requirements.yml -n team3
 # Instructions
 In order to get the answer, please, run in your shell:
 
+```
 $ python answer.py
+```
 
 # Chosen Model
 XGBoost
