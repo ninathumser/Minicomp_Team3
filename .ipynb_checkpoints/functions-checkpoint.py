@@ -20,7 +20,7 @@ from joblib import dump, load
 def data_clean():
         
     #### DELETE WHEN MATIAS IS DONE WITH DATA CLEANING###
-    data_clean = pd.read_pickle('./data/clean_data.pkl')
+    data_clean = pd.read_pickle('./data/clean_data_old.pkl')
         
     #### DELETE WHEN MATIAS IS DONE WITH DATA CLEANING###
     return data_clean
