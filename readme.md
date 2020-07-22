@@ -12,7 +12,7 @@ $ conda env create -f requirements.yml -n team3
 In order to get the answer, please, run in your shell:
 
 ```
-$ python answer.py
+$ python 04_answer.py
 ```
 
 # Chosen Model
