@@ -6,6 +6,11 @@ Data science project to predict the Sales of Rossmann for 2014-08-01 to 2015-07-
 
 $ pip install -r requirements.txt
 
+# Instruction
+In order to get the answer, please, execute in your shell:
+
+$ python answer.py
+
 # Chosen Model
 XGBoost
 
