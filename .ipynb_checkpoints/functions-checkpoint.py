@@ -197,6 +197,8 @@ def process_test(train_name='./data/clean_data.pkl', test_name='./test.csv'):
     
     model = load('./fitted_model.joblib')
     
+    print("Team3's RMSPE for the test set applying XGBoost is: {:.2f}%.\n\nOur hyperparameters: n_estimates = 1000,  max_depth=6\n\nData is cool! :D".format(predict(X_test_scaled, y_test, model)))
+    
     return predict(X_test_scaled, y_test, model)
   
 
