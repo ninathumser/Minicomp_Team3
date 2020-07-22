@@ -1,9 +1,70 @@
-python==3.6
-joblib==0.16.0
-matplotlib==3.2.2
+appnope==0.1.0
+attrs==19.3.0
+backcall @ file:///home/conda/feedstock_root/build_artifacts/backcall_1592338393461/work
+bleach @ file:///home/conda/feedstock_root/build_artifacts/bleach_1588608214987/work
+certifi==2020.6.20
+convertdate @ file:///home/conda/feedstock_root/build_artifacts/convertdate_1589287890831/work
+cycler==0.10.0
+decorator==4.4.2
+defusedxml==0.6.0
+entrypoints==0.3
+graphviz==0.14.1
+holidays @ file:///home/conda/feedstock_root/build_artifacts/holidays_1589367317537/work
+importlib-metadata @ file:///Users/runner/miniforge3/conda-bld/importlib-metadata_1593211385768/work
+ipykernel @ file:///Users/runner/miniforge3/conda-bld/ipykernel_1595101344691/work/dist/ipykernel-5.3.3-py3-none-any.whl
+ipython @ file:///Users/runner/miniforge3/conda-bld/ipython_1593235471908/work
+ipython-genutils==0.2.0
+jedi @ file:///Users/runner/miniforge3/conda-bld/jedi_1595018307987/work
+Jinja2==2.11.2
+joblib @ file:///tmp/build/80754af9/joblib_1594236160679/work
+json5 @ file:///home/conda/feedstock_root/build_artifacts/json5_1591810480056/work
+jsonschema==3.2.0
+jupyter-client @ file:///home/conda/feedstock_root/build_artifacts/jupyter_client_1594732094290/work
+jupyter-core==4.6.3
+jupyterlab==2.2.0
+jupyterlab-server @ file:///home/conda/feedstock_root/build_artifacts/jupyterlab_server_1593951277307/work
+kiwisolver==1.2.0
+korean-lunar-calendar @ file:///home/conda/feedstock_root/build_artifacts/korean_lunar_calendar_1589354365811/work
+MarkupSafe==1.1.1
+matplotlib @ file:///Users/runner/miniforge3/conda-bld/matplotlib-base_1595215511609/work
+mistune==0.8.4
+mkl-fft==1.1.0
+mkl-random==1.1.1
+mkl-service==2.3.0
+nbconvert==5.6.1
+nbformat @ file:///home/conda/feedstock_root/build_artifacts/nbformat_1594060262917/work
+notebook @ file:///Users/runner/miniforge3/conda-bld/notebook_1594078852351/work
 numpy==1.18.5
-pandas==1.0.5
+olefile==0.46
+packaging @ file:///home/conda/feedstock_root/build_artifacts/packaging_1589925210001/work
+pandas @ file:///opt/concourse/worker/volumes/live/18a2b361-ca01-439e-799c-26ae586e114f/volume/pandas_1592841668631/work
+pandocfilters==1.4.2
+parso==0.7.0
+pexpect==4.8.0
+pickleshare==0.7.5
+Pillow @ file:///Users/runner/miniforge3/conda-bld/pillow_1594212136526/work
+prometheus-client @ file:///home/conda/feedstock_root/build_artifacts/prometheus_client_1590412252446/work
+prompt-toolkit @ file:///home/conda/feedstock_root/build_artifacts/prompt-toolkit_1592500439797/work
+ptyprocess==0.6.0
+Pygments==2.6.1
+PyMeeus @ file:///home/conda/feedstock_root/build_artifacts/pymeeus_1589222711601/work
+pyparsing==2.4.7
+pyrsistent==0.16.0
+python-dateutil==2.8.1
+pytz==2020.1
+pyzmq==19.0.1
+requests==2.12.5
+scikit-learn @ file:///opt/concourse/worker/volumes/live/ebc02d84-74dd-49ee-6dd3-7bca233ec59d/volume/scikit-learn_1592856308046/work
+scipy @ file:///opt/concourse/worker/volumes/live/5de63de1-ebe3-42a0-667e-ce551df4774f/volume/scipy_1592940143707/work
 seaborn==0.10.1
-scikit-learn==0.23.1
+Send2Trash==1.5.0
+six==1.15.0
+terminado==0.8.3
+testpath==0.4.4
+threadpoolctl @ file:///tmp/tmp9twdgx9k/threadpoolctl-2.1.0-py3-none-any.whl
+tornado==6.0.4
+traitlets==4.3.3
+wcwidth @ file:///home/conda/feedstock_root/build_artifacts/wcwidth_1592931742287/work
+webencodings==0.5.1
 xgboost==1.1.1
-
+zipp==3.1.0
