@@ -170,7 +170,7 @@ def predict(X_test, y_test, model):
     
 
 
-def process_test(train_name='./data/clean_data.pkl', test_name='./test.csv'):
+def process_test(train_name='./data/clean_data_old.pkl', test_name='./test.csv'):
     #test data
     test_file = pd.read_csv(test_name)
     test_file.loc[:, 'Date'] = test_file.loc[:, 'Date'].astype('datetime64')
