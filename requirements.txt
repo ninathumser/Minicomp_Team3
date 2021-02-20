@@ -53,7 +53,7 @@ pyrsistent==0.16.0
 python-dateutil==2.8.1
 pytz==2020.1
 pyzmq==19.0.1
-requests==2.12.5
+requests==2.20.0
 scikit-learn @ file:///opt/concourse/worker/volumes/live/ebc02d84-74dd-49ee-6dd3-7bca233ec59d/volume/scikit-learn_1592856308046/work
 scipy @ file:///opt/concourse/worker/volumes/live/5de63de1-ebe3-42a0-667e-ce551df4774f/volume/scipy_1592940143707/work
 seaborn==0.10.1
