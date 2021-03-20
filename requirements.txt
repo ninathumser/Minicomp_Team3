@@ -15,7 +15,7 @@ ipykernel @ file:///Users/runner/miniforge3/conda-bld/ipykernel_1595101344691/wo
 ipython @ file:///Users/runner/miniforge3/conda-bld/ipython_1593235471908/work
 ipython-genutils==0.2.0
 jedi @ file:///Users/runner/miniforge3/conda-bld/jedi_1595018307987/work
-Jinja2==2.11.2
+Jinja2==2.11.3
 joblib @ file:///tmp/build/80754af9/joblib_1594236160679/work
 json5 @ file:///home/conda/feedstock_root/build_artifacts/json5_1591810480056/work
 jsonschema==3.2.0
