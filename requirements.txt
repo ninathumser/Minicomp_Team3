@@ -27,7 +27,7 @@ kiwisolver==1.2.0
 korean-lunar-calendar @ file:///home/conda/feedstock_root/build_artifacts/korean_lunar_calendar_1589354365811/work
 MarkupSafe==1.1.1
 matplotlib @ file:///Users/runner/miniforge3/conda-bld/matplotlib-base_1595215511609/work
-mistune==0.8.4
+mistune==2.0.3
 mkl-fft==1.1.0
 mkl-random==1.1.1
 mkl-service==2.3.0
